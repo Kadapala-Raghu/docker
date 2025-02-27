@@ -36,7 +36,7 @@ docker network ls
 docker network inspect network-name
 ```
 ```
-docker push tagged-image-name
+1. docker push tagged-image-name
 ```
 ```
 docker rmi  
