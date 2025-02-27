@@ -35,8 +35,8 @@ docker network ls
 ```
 docker network inspect network-name
 ```
+
 ```
-.
 docker push tagged-image-name
 ```
 ```
