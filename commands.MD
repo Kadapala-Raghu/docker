@@ -1,11 +1,11 @@
-    ```
-    docker ps
-    ```
+```
+docker ps
+```
 Displays running containers
 
-    ```
-    docker images
-    ```
+```
+docker images
+```
 Displays the images are available
 
 ```
