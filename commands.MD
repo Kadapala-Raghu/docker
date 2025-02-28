@@ -1,4 +1,13 @@
+```
+docker ps
+```
+    Displays running containers
 
+```
+docker images
+```
+    Displays the images are available
+    
 ```
 docker search image-name
 ```
