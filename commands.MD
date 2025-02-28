@@ -9,6 +9,11 @@ docker images
 - Displays the images are available
 
 ```
+docker pulll <iamge-name>
+```
+- Trying to pull the images from the Docker Hub
+
+```
 docker search image-name
 ```
 
