@@ -1,7 +1,7 @@
 ```
 docker ps
 ```
-Displays running containers
+- **Displays running containers
 
 ```
 docker images
