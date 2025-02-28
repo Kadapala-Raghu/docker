@@ -6,7 +6,7 @@ docker ps
 ```
 docker images
 ```
-Displays the images are available
+- Displays the images are available
 
 ```
 docker search image-name
