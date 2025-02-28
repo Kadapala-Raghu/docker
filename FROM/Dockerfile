@@ -1,1 +1,1 @@
-FROM almalinux:9    ## FROM <BASE-OS>:Operating System
+FROM almalinux:9    
