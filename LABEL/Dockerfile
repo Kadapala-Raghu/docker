@@ -6,3 +6,4 @@ LABEL project="expense"\
 
       
 #$ docker images -f "LABEL=project=expense"
+# $ docker inspect lable:1.0
