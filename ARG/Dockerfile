@@ -17,18 +17,19 @@ CMD ["sleep", "100"]
     #It cannot be useful after FROM instructions
 
 
-# FAQ -> i wnat to use ARG after FROM, how can We 
-/*
-ARG version
-FROM almalinux:${version}:-9
-ENV course="DevOps"\
-    trainer="Raghu"
-## Here below username is key and someuser is default value
-ARG USERNAME=RaghuKadapala
-ENV USERNAME=$USERNAME
-RUN echo "Hello ${USERNAME}}"
-CMD ["sleep", "100"]
+# # FAQ -> i want to use ARG after FROM, how can We 
+# FAQ > ARG value ni container lopala use cheyyali ante 
+# /*
+# ARG version
+# FROM almalinux:${version}:-9
+# ENV course="DevOps"\
+#     trainer="Raghu"
+# ## Here below username is key and someuser is default value
+# ARG USERNAME=RaghuKadapala
+# ENV USERNAME=$USERNAME
+# RUN echo "Hello ${USERNAME}}"
+# CMD ["sleep", "100"]
 
 
-*/
-# Feb-26 Session 44 at 50:00 Minutes
+# */
+# # Feb-26 Session 44 at 50:00 Minutes
