@@ -1,6 +1,6 @@
 #!/bin/bash
-# ARCH=amd64
-# PLATFORM=$(uname -s)_$ARCH
+ARCH=amd64
+PLATFORM=$(uname -s)_$ARCH
 
 growpart /dev/nvme0n1 4
 lvextend -l +50%FREE /dev/RootVG/rootVol
