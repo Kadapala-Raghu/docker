@@ -24,3 +24,13 @@ mv kubectl /usr/local/bin/kubectl
 curl -sLO "https://github.com/eksctl-io/eksctl/releases/latest/download/eksctl_$PLATFORM.tar.gz"
 tar -xzf eksctl_$PLATFORM.tar.gz -C /tmp && rm eksctl_$PLATFORM.tar.gz
 mv /tmp/eksctl /usr/local/bin
+
+# [ ec2-user@ip-172-31-25-112 ~ ]$ kubectl  version
+# Client Version: v1.32.0-eks-5ca49cb
+# Kustomize Version: v5.5.0
+# The connection to the server localhost:8080 was refused - did you specify the right host or port?
+
+# 52.91.247.98 | 172.31.25.112 | t3.micro | null
+# [ ec2-user@ip-172-31-25-112 ~ ]$ eksctl version
+# 0.211.0
+
